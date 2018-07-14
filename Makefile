@@ -14,7 +14,7 @@ CPPFLAGS	= -I ${SRC_DIR} -I ${TST_DIR}
 LFFLAGS		=
 SRVFLAGS	=
 
-MAIN_SRC	= $(wildcard $(SRC_DIR)/*.c)
+MAIN_SRC	= $(wildcard $(SRC_DIR)/*.c $(SRC_DIR)/common/*.c)
 MAIN_OBJ	= $(MAIN_SRC:%.c=%.o)
 MAIN_EXEC	= main
 

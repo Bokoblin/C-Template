@@ -8,6 +8,7 @@ set(APP_EXECUTABLE main)
 #       SET SOURCES
 #--------------------------------------------------------
 file(GLOB SOURCE_FILES
+        "common/*.c"
         "*.c"
         )
 
